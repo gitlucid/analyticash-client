@@ -11,9 +11,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "node ./node_modules/.bin/vite preview"
+    "start": "npm run preview"
   },
-  "heroku-postbuild": "npm install --only=dev",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
