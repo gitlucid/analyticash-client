@@ -11,7 +11,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "node node_modules/vite/dist/node/index.js preview"
+    "start": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -25,7 +25,8 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.11.2",
     "recharts": "^2.6.2",
-    "regression": "^2.0.1"
+    "regression": "^2.0.1",
+    "vite": "^4.3.9"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
