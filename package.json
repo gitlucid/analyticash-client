@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "start": "vite preview"
   },
+  "heroku-postbuild": "npm install --only=dev",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
