@@ -11,7 +11,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "node -r esm node_modules/vite/dist/index.js preview"
+    "start": "node -r esm node_modules/vite/dist/node/index.js preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
