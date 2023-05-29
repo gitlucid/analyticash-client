@@ -18,8 +18,6 @@ import { useMemo } from "react";
 import { useTheme } from "@mui/material";
 import BoxHeader from "@/components/BoxHeader";
 
-type Props = {};
-
 const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();

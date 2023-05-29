@@ -8,7 +8,7 @@ import {
 } from "@/state/api";
 import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid, GridCellParams } from "@mui/x-data-grid";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { Cell, Pie, PieChart } from "recharts";
 
 const Row3 = () => {
@@ -18,11 +18,7 @@ const Row3 = () => {
   const { data: kpiData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
-  console.log(
-    "🚀 ~ file: Row3.tsx:21 ~ Row3 ~ transactionData:",
-    transactionData
-  );
-
+ 
   const pieChartData = useMemo(() => {
     if (kpiData) {
       const totalExpenses = kpiData[0].totalExpenses;
