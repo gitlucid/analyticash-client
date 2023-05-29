@@ -14,7 +14,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { useTheme } from "@mui/material";
 import BoxHeader from "@/components/BoxHeader";
 
